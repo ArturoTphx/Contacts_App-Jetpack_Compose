@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="name_hint">Name</string>
+    <string name="last_name_one_hint">First last name</string>
+    <string name="last_name_two_hint">Second last name</string>
+    <string name="phone_hint">Phone number</string>
+    <string name="save">Save!</string>
+    <string name="delete">Erase</string>
+    <string name="error">Error</string>
+    <string name="back">Back</string>
+    <string name="database_empty">Nothing saved in Room</string>
+    <string name="charge">Loading your contacts</string>
+    <string name="accept_option">Accept</string>
+    <string name="cancel_option">Cancel</string>
+    <string name="empty_fields">Empty fields</string>
+    <string name="name_error">Write the name without spaces, numbers or special characters</string>
+    <string name="last_name_error">Write the last names without spaces, numbers or special characters</string>
+    <string name="attention">Attention</string>
+    <string name="success">Successful operation</string>
+    <string name="phone_error">The given number doesn´t match with a valid number format</string>
+    <string name="empty">Your contact list is empty</string>
+    <string name="clean_success">Your data have been removed</string>
+    <string name="clean">Clean preferences</string>
+    <string name="question">Do you want to erase this contact?</string>
+</resources>

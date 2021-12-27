@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Contactos</string>
+    <string name="name_hint">Nombre</string>
+    <string name="last_name_one_hint">Primer apellido</string>
+    <string name="last_name_two_hint">Segundo apellido</string>
+    <string name="phone_hint">Número</string>
+    <string name="save">¡Guardar!</string>
+    <string name="delete">Borrar</string>
+    <string name="error">Error</string>
+    <string name="back">Retroceder</string>
+    <string name="database_empty">Nada guardado en Room</string>
+    <string name="charge">Cargando sus contactos</string>
+    <string name="accept_option">Aceptar</string>
+    <string name="cancel_option">Cancelar</string>
+    <string name="empty_fields">Campos vacíos</string>
+    <string name="name_error">Escriba el nombre sin espacios, números o caracteres especiales</string>
+    <string name="last_name_error">Escriba los apellidos sin espacios, números o caracteres especiales</string>
+    <string name="attention">Atención</string>
+    <string name="success">Operacion exitosa</string>
+    <string name="phone_error">El numero ingresado no coincide con un formato valido</string>
+    <string name="empty">Su lista de contactos esta vacía</string>
+    <string name="clean_success">Sus datos han sido eliminados</string>
+    <string name="clean">Limpiar preferencias</string>
+    <string name="question">¿Desea eliminar el contacto?</string>
+</resources>
