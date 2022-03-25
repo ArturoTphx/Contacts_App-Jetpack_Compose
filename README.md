@@ -1,2 +1,7 @@
-# Contacts_App-Jetpack_Compose
-In this project you can find a simple Contacts app with Jetpack Compose and Room Database. 
+# contacts_app
+Version 1.1
+
+Features:
+-Room Database
+-Jetpack Compose
+-MVVM
