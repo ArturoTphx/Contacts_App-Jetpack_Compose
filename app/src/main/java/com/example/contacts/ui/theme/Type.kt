@@ -20,32 +20,32 @@ val Typography = Typography(
     h1 = TextStyle(
         fontFamily = FiraSans,
         fontWeight = FontWeight.Light,
-        fontSize = 28.sp
+        fontSize = 96.sp
     ),
     h2 = TextStyle(
         fontFamily = FiraSans,
         fontWeight = FontWeight.Light,
-        fontSize = 26.sp
+        fontSize = 60.sp
     ),
     h3 = TextStyle(
         fontFamily = FiraSans,
         fontWeight = FontWeight.Normal,
-        fontSize = 24.sp
+        fontSize = 48.sp
     ),
     h4 = TextStyle(
         fontFamily = FiraSans,
         fontWeight = FontWeight.Normal,
-        fontSize = 22.sp
+        fontSize = 34.sp
     ),
     h5 = TextStyle(
         fontFamily = FiraSans,
         fontWeight = FontWeight.Normal,
-        fontSize = 20.sp
+        fontSize = 24.sp
     ),
     h6 = TextStyle(
         fontFamily = FiraSans,
         fontWeight = FontWeight.Medium,
-        fontSize = 18.sp
+        fontSize = 20.sp
     ),
     subtitle1 = TextStyle(
         fontFamily = FiraSans,
@@ -55,7 +55,7 @@ val Typography = Typography(
     subtitle2 = TextStyle(
         fontFamily = FiraSans,
         fontWeight = FontWeight.Medium,
-        fontSize = 15.sp
+        fontSize = 14.sp
     ),
     body1 = TextStyle(
         fontFamily = FiraSans,
@@ -65,7 +65,7 @@ val Typography = Typography(
     body2 = TextStyle(
         fontFamily = FiraSans,
         fontWeight = FontWeight.Medium,
-        fontSize = 15.sp
+        fontSize = 14.sp
     ),
     button = TextStyle(
         fontFamily = FiraSans,
@@ -80,7 +80,7 @@ val Typography = Typography(
     overline = TextStyle(
         fontFamily = FiraSans,
         fontWeight = FontWeight.Normal,
-        fontSize = 1.sp
+        fontSize = 10.sp
     )
 
 )

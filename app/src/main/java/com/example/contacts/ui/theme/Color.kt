@@ -2,14 +2,22 @@ package com.example.contacts.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val RedBackground = Color(0xFFEF5350)
-val Red = Color(0xFFF44336) // Primary light
-val RedVariant = Color(0xFFD32F2F) // Primary variant light
+val LightPrimary = Color(0xFFf44336) // Red 500
+val LightPrimaryVariant = Color(0xFFd32f2f) // Red 700
 
-val BlueBackground = Color(0xFF29B6F6)
-val Blue = Color(0xFF2196F3) // Primary night
-val BlueVariant = Color(0xFF1976D2) // Primary variant night
+val DarkPrimary = Color(0xFFf50057) // Red A 300
+val DarkPrimaryVariant = Color(0xFFbb002f) // Red A 700
 
-val Gray = Color(0xFF494949)
-val Silver = Color(0xFFCFCFCF) // Secondary
-val SilverVariant = Color(0xFF9E9B9B) // Secondary variant
+val DarkSecondary = Color(0xFF64b5f6) // Blue 300
+val DarkSecondaryVariant = Color(0xFF1976d2) // Blue 700
+
+val LightSecondary = Color(0xFF2979ff) // Blue 500
+val LightSecondaryVariant = Color(0xFF004ecb) // Blue 700
+
+val DarkError = Color(0xFFCF6679)
+val LightError = Color(0xFFB00020)
+
+val DarkSurface = Color(0xFF212121)
+val DarkBackground = Color(0xFF121212)
+
+val LightSurface = Color(0xFFf5f5f5) // Gray 100

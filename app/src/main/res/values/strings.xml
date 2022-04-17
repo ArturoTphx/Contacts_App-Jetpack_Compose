@@ -7,6 +7,11 @@
     <string name="save">¡Guardar!</string>
     <string name="delete">Borrar</string>
     <string name="error">Error</string>
+    <string name="option_dialog_title">Atención</string>
+    <string name="option_dialog_dismiss">Cancelar</string>
+    <string name="option_dialog_accept">Aceptar</string>
+    <string name="info_dialog_title">Atención</string>
+    <string name="event_dialog_accept_option">Aceptar</string>
     <string name="back">Retroceder</string>
     <string name="database_empty">Nada guardado en Room</string>
     <string name="charge">Cargando sus contactos</string>
@@ -22,4 +27,6 @@
     <string name="clean_success">Sus datos han sido eliminados</string>
     <string name="clean">Limpiar preferencias</string>
     <string name="question">¿Desea eliminar el contacto?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
 </resources>

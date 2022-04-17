@@ -8,35 +8,37 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
 private val DarkColorPalette = darkColors(
-    primary = Blue,
-    primaryVariant = BlueVariant,
-    secondary = Silver,
-    secondaryVariant = SilverVariant,
-    background = BlueBackground,
-    surface = Gray,
-    onPrimary = Color.Black,
-    onSecondary = Color.White,
-    onBackground = Color.White,
-    onSurface = Color.White,
-    onError = Color.White
-)
-
-private val LightColorPalette = lightColors(
-    primary = Red,
-    primaryVariant = RedVariant,
-    secondary = Silver,
-    secondaryVariant = SilverVariant,
-    background = RedBackground,
-    surface = Color.White,
+    primary = DarkPrimary,
+    primaryVariant = DarkPrimaryVariant,
+    secondary = DarkSecondary,
+    secondaryVariant = DarkSecondaryVariant,
+    background = DarkBackground,
+    surface = DarkSurface,
+    error = DarkError,
     onPrimary = Color.Black,
     onSecondary = Color.Black,
-    onBackground = Color.Black,
-    onSurface = Color.Black,
+    onBackground = Color.White,
+    onSurface = Color.White,
     onError = Color.Black
 )
 
+private val LightColorPalette = lightColors(
+    primary = LightPrimary,
+    primaryVariant = LightPrimaryVariant,
+    secondary = LightSecondary,
+    secondaryVariant = LightSecondaryVariant,
+    background = Color.White,
+    surface = LightSurface,
+    error = LightError,
+    onPrimary = Color.White,
+    onSecondary = Color.Black,
+    onBackground = Color.Black,
+    onSurface = Color.Black,
+    onError = Color.White
+)
+
 @Composable
-fun ContactsTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable() () -> Unit) {
+fun ContactsTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable () -> Unit) {
     val colors = if (darkTheme) {
         DarkColorPalette
     } else {
