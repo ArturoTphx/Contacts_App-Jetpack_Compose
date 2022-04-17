@@ -1,7 +1,8 @@
 # contacts_app
-Version 1.1
+2.0
 
 Features:
 -Room Database
 -Jetpack Compose
--MVVM
+-MVVM Clean architecture
+-Dagger - Hilt
